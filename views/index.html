@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>Timestamp Microservice</title>
+      <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet" type="text/css">
+      <link href="style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+
+      <div class="container">
+        <h1>Timestamp Microservice</h1>
+        
+        <div class="wrapper">
+          <h2>Description</h2>
+          <p>This service provides time in both unix and utc formats.</p>
+          <p>Simply add <span>/api/timestamp/</span> and the <span>time</span> to the tail-end of this url!</p>
+        </div>
+        
+        <div class="wrapper">
+          <h2>Example API Calls</h2>
+          <ul>
+            <li><span><a href="api/timestamp/2015-12-25">https://silken-epoch.glitch.me/api/timestamp/2015-12-25</a></span></li>
+            <li><span><a href="api/timestamp/1450137600000">https://silken-epoch.glitch.me/api/timestamp/1450137600000</a></span></li>
+          </ul>
+        </div>
+        
+        <div class="wrapper">
+          <h2>Example Output</h2>
+          <p><span><code>{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code></span></p>
+        </div>
+        
+      </div>
+
+   </body>
+
+</html>
